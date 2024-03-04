@@ -1,0 +1,294 @@
+#doctorsettings {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+#doctorsettings #leftdiv {
+  width: 15%;
+  height: 100vh;
+  background-color: rgb(77, 182, 171);
+}
+
+#doctorsettings #logodiv {
+  width: 100%;
+  height: 30%;
+  /* background-color: green; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#doctorsettings #logo {
+  height: 50%;
+}
+
+#doctorsettings hr {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#doctorsettings #sidebar {
+  width: 100%;
+  height: 50%;
+  /* background-color: aqua; */
+  padding-top: 3vh;
+}
+
+#doctorsettings #navbar {
+  width: 100%;
+  height: 70%;
+  /* background-color: yellow; */
+}
+
+#doctorsettings #dashboarddiv {
+  width: 100%;
+  height: 20%;
+  /* background-color: gold; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-decoration: none;
+  color: black;
+}
+
+#doctorsettings .dashboard-icon {
+  height: 70%;
+}
+
+#doctorsettings #dashboarddiv p {
+  margin: 0;
+  font-size: 20px;
+}
+
+#doctorsettings #patientsdiv {
+  width: 100%;
+  height: 20%;
+  /* background-color: gold; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-decoration: none;
+  color: black;
+}
+
+#doctorsettings .patient-icon {
+  height: 70%;
+}
+
+#doctorsettings #patientsdiv p {
+  margin: 0;
+  font-size: 20px;
+}
+
+#doctorsettings #schedulediv {
+  width: 100%;
+  height: 20%;
+  /* background-color: gold; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-decoration: none;
+  color: black;
+}
+
+#doctorsettings .schedule-icon {
+  height: 70%;
+}
+
+#doctorsettings #schedulediv p {
+  margin: 0;
+  font-size: 20px;
+}
+
+#doctorsettings #settingsdiv {
+  width: 100%;
+  height: 20%;
+  background-color: gold;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-decoration: none;
+  color: black;
+}
+
+#doctorsettings .settings-icon {
+  height: 70%;
+}
+
+#doctorsettings #settingsdiv p {
+  margin: 0;
+  font-size: 20px;
+}
+
+#doctorsettings #logoutdiv {
+  width: 100%;
+  height: 17%;
+  /* background-color: blue; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#doctorsettings #logoutdiv p {
+  margin-bottom: 2vh;
+}
+
+#doctorsettings .logoutclick {
+  text-decoration: none;
+  color: black;
+}
+
+#doctorsettings #centrediv {
+  width: 60%;
+  height: 100vh;
+  background-color: white;
+}
+
+#doctorsettings #datediv {
+  width: 100%;
+  height: 10%;
+  /* background-color: blue; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#doctorsettings #datedivdash {
+  color: rgb(14, 13, 13);
+  margin-left: 3vw;
+}
+
+#doctorsettings #datedivdate {
+  color: #77779c;
+  margin-right: 3vw;
+}
+
+#doctorsettings .centredivmain {
+  width: 100%;
+  height: 90%;
+  /* background-color: green; */
+}
+
+#doctorsettings #rightdiv {
+  width: 25%;
+  height: 100vh;
+  background-color: rgb(77, 182, 171);
+}
+
+#doctorsettings #profile {
+  width: 100%;
+  height: 10%;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+}
+
+#doctorsettings #profile h3 {
+  margin-left: 1vw;
+}
+
+#doctorsettings #profilename {
+  width: 100%;
+  height: 30%;
+  /* background-color: yellow; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#doctorsettings #drlogo {
+  height: 60%;
+  margin-bottom: 3vh;
+}
+
+#doctorsettings #profilename h5 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#doctorsettings #profilebody {
+  width: 100%;
+  height: 55%;
+  /* background-color: blue; */
+}
+
+#doctorsettings #alerts {
+  width: 100%;
+  height: 15%;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+}
+
+#doctorsettings #alerts h3 {
+  margin-top: 3vh;
+  margin-left: 1vw;
+}
+
+#doctorsettings .alertlist {
+  width: 100%;
+  height: 90%;
+  /* background-color: green; */
+}
+
+#doctorsettings .alertinfo {
+  width: 100%;
+  height: 20%;
+  /* background-color: orange; */
+  display: flex;
+}
+
+#doctorsettings .alertinfo p {
+  margin-top: 0;
+  margin-left: 1vw;
+}
+
+#doctorsettings .alertinfoleft {
+  width: 60%;
+  height: 100%;
+  /* background-color: blue; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#doctorsettings .alertinforight {
+  width: 40%;
+  height: 100%;
+  /* background-color: purple; */
+  display: flex;
+  align-items: center;
+}
+
+#doctorsettings #newappoint {
+  color: green;
+}
+
+#doctorsettings #cancelappoint {
+  color: red;
+}
+
+#doctorsettings #reschappoint {
+  color: purple;
+}
+
+#doctorsettings #footerdiv {
+  width: 100%;
+  height: 7vh;
+  /* background-color: green; */
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+#doctorsettings footer {
+  width: 60%;
+  height: 80%;
+  /* background-color: brown; */
+  display: flex;
+  justify-content: center;
+  color: white;
+}

@@ -1,4 +1,4 @@
-#login {
+#doctorlogin {
   margin: 0;
   padding: 0;
   height: 100vh;
@@ -8,17 +8,17 @@
   background-size: 100% 100%;
 }
 
-#login #topdiv {
+#doctorlogin #topdiv {
   width: 100%;
   height: 10vh;
   /* background-color: green; */
 }
 
-#login #logo {
+#doctorlogin #logo {
   height: 100%;
 }
 
-#login #boxdiv {
+#doctorlogin #boxdiv {
   width: 100%;
   height: 90vh;
   /* background-color: red; */
@@ -27,7 +27,7 @@
   align-items: center;
 }
 
-#login #box {
+#doctorlogin #box {
   width: 40%;
   height: 50vh;
   background-color: white;
@@ -35,17 +35,16 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-bottom: 10vh;
 }
 
-#login button {
-  background-color: rebeccapurple;
+#doctorlogin button {
+  background-color: green;
   color: white;
   padding: 1vh;
   border-radius: 0;
 }
 
-#login .loginclick {
+#doctorlogin .doctorloginclick {
   text-decoration: none;
   color: blue;
 }

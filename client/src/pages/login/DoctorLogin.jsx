@@ -1,11 +1,11 @@
 import React from "react";
-import "./login.css";
+import "./doctorlogin.css";
 import logo from "../../assets/logo.png";
 import { Link } from "react-router-dom";
 
-const Login = () => {
+const DoctorLogin = () => {
   return (
-    <div id="login">
+    <div id="doctorlogin">
       <title>Log In</title>
       <div id="topdiv">
         <img id="logo" src={logo} alt="" />
@@ -14,7 +14,7 @@ const Login = () => {
         <div id="box">
           <form action="">
             <label>
-              <b>NIN</b>
+              <b>Folio Nmber</b>
             </label>
             <br />
             <input type="number" name="nin" placeholder="Enter your NIN here" />
@@ -36,7 +36,7 @@ const Login = () => {
           </form>
           <p id="register">
             Don't have an account? &nbsp;
-            <Link to={"/"} className="loginclick">
+            <Link to={"/"} className="doctorloginclick">
               Click here to register.
             </Link>
           </p>
@@ -46,4 +46,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default DoctorLogin;

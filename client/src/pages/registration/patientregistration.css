@@ -1,24 +1,24 @@
-#login {
+#patientregistration {
   margin: 0;
   padding: 0;
   height: 100vh;
   /* background-color: aqua; */
-  background-image: url(../../assets/bgimg2.png);
+  background-image: url(../../assets/bgimg3.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
 
-#login #topdiv {
+#patientregistration #topdiv {
   width: 100%;
   height: 10vh;
   /* background-color: green; */
 }
 
-#login #logo {
+#patientregistration #logo {
   height: 100%;
 }
 
-#login #boxdiv {
+#patientregistration #boxdiv {
   width: 100%;
   height: 90vh;
   /* background-color: red; */
@@ -27,25 +27,21 @@
   align-items: center;
 }
 
-#login #box {
+#patientregistration #box {
   width: 40%;
-  height: 50vh;
+  height: 70vh;
   background-color: white;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 10vh;
 }
 
-#login button {
-  background-color: rebeccapurple;
+#patientregistration form {
+  margin: 5%;
+}
+
+#patientregistration button {
+  background-color: green;
   color: white;
   padding: 1vh;
   border-radius: 0;
-}
-
-#login .loginclick {
-  text-decoration: none;
-  color: blue;
 }

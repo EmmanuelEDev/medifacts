@@ -1,0 +1,143 @@
+#user {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  /* background-color: aqua; */
+  background-image: url(../../assets/bgimg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#user #topdiv {
+  width: 100%;
+  height: 10vh;
+  /* background-color: green; */
+}
+
+#user #logo {
+  height: 100%;
+}
+
+#user #boxdiv {
+  width: 100%;
+  height: 90vh;
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#user #box {
+  width: 40%;
+  height: 50vh;
+  background-color: white;
+  margin-bottom: 10vh;
+}
+
+#user #boxname {
+  width: 100%;
+  height: 20%;
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#user #boxname p {
+  margin: 0;
+  font-size: 30px;
+}
+
+#user #iconsbox {
+  width: 100%;
+  height: 80%;
+  /* background-color: blue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#user #patientdiv {
+  width: 30%;
+  height: 60%;
+  /* background-color: yellow; */
+  margin-left: 10%;
+  margin-bottom: 10%;
+  border: 1px solid black;
+  text-decoration: none;
+  color: black;
+}
+
+#user #patienticon {
+  width: 100%;
+  height: 80%;
+  /* background-color: pink; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#user #pidiv {
+  width: 50%;
+  height: 80%;
+  /* background-color: green; */
+  background-image: url(../../assets/boy-icon.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#user #patientname {
+  width: 100%;
+  height: 20%;
+  /* background-color: orange; */
+  display: flex;
+  justify-content: center;
+}
+
+#user #patientp {
+  margin-top: 0;
+  font-size: 25px;
+}
+
+#user #doctordiv {
+  width: 30%;
+  height: 60%;
+  /* background-color: green; */
+  margin-right: 10%;
+  margin-bottom: 10%;
+  border: 1px solid black;
+  text-decoration: none;
+  color: black;
+}
+
+#user #doctoricon {
+  width: 100%;
+  height: 80%;
+  /* background-color: pink; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#user #didiv {
+  width: 50%;
+  height: 80%;
+  /* background-color: green; */
+  background-image: url(../../assets/doctor-icon.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#user #doctorname {
+  width: 100%;
+  height: 20%;
+  /* background-color: orange; */
+  display: flex;
+  justify-content: center;
+}
+
+#user #doctorp {
+  margin-top: 0;
+  font-size: 25px;
+}

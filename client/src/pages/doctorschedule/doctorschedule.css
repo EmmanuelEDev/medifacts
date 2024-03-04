@@ -1,0 +1,294 @@
+#doctorschedule {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+#doctorschedule #leftdiv {
+  width: 15%;
+  height: 100vh;
+  background-color: rgb(77, 182, 171);
+}
+
+#doctorschedule #logodiv {
+  width: 100%;
+  height: 30%;
+  /* background-color: green; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#doctorschedule #logo {
+  height: 50%;
+}
+
+#doctorschedule hr {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#doctorschedule #sidebar {
+  width: 100%;
+  height: 50%;
+  /* background-color: aqua; */
+  padding-top: 3vh;
+}
+
+#doctorschedule #navbar {
+  width: 100%;
+  height: 70%;
+  /* background-color: yellow; */
+}
+
+#doctorschedule #dashboarddiv {
+  width: 100%;
+  height: 20%;
+  /* background-color: gold; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-decoration: none;
+  color: black;
+}
+
+#doctorschedule .dashboard-icon {
+  height: 70%;
+}
+
+#doctorschedule #dashboarddiv p {
+  margin: 0;
+  font-size: 20px;
+}
+
+#doctorschedule #patientsdiv {
+  width: 100%;
+  height: 20%;
+  /* background-color: gold; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-decoration: none;
+  color: black;
+}
+
+#doctorschedule .patient-icon {
+  height: 70%;
+}
+
+#doctorschedule #patientsdiv p {
+  margin: 0;
+  font-size: 20px;
+}
+
+#doctorschedule #schedulediv {
+  width: 100%;
+  height: 20%;
+  background-color: gold;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-decoration: none;
+  color: black;
+}
+
+#doctorschedule .schedule-icon {
+  height: 70%;
+}
+
+#doctorschedule #schedulediv p {
+  margin: 0;
+  font-size: 20px;
+}
+
+#doctorschedule #settingsdiv {
+  width: 100%;
+  height: 20%;
+  /* background-color: purple; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-decoration: none;
+  color: black;
+}
+
+#doctorschedule .settings-icon {
+  height: 70%;
+}
+
+#doctorschedule #settingsdiv p {
+  margin: 0;
+  font-size: 20px;
+}
+
+#doctorschedule #logoutdiv {
+  width: 100%;
+  height: 17%;
+  /* background-color: blue; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#doctorschedule #logoutdiv p {
+  margin-bottom: 2vh;
+}
+
+#doctorschedule .logoutclick {
+  text-decoration: none;
+  color: black;
+}
+
+#doctorschedule #centrediv {
+  width: 60%;
+  height: 100vh;
+  background-color: white;
+}
+
+#doctorschedule #datediv {
+  width: 100%;
+  height: 10%;
+  /* background-color: blue; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#doctorschedule #datedivdash {
+  color: rgb(14, 13, 13);
+  margin-left: 3vw;
+}
+
+#doctorschedule #datedivdate {
+  color: #77779c;
+  margin-right: 3vw;
+}
+
+#doctorschedule .centredivmain {
+  width: 100%;
+  height: 90%;
+  /* background-color: green; */
+}
+
+#doctorschedule #rightdiv {
+  width: 25%;
+  height: 100vh;
+  background-color: rgb(77, 182, 171);
+}
+
+#doctorschedule #profile {
+  width: 100%;
+  height: 10%;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+}
+
+#doctorschedule #profile h3 {
+  margin-left: 1vw;
+}
+
+#doctorschedule #profilename {
+  width: 100%;
+  height: 30%;
+  /* background-color: yellow; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#doctorschedule #drlogo {
+  height: 60%;
+  margin-bottom: 3vh;
+}
+
+#doctorschedule #profilename h5 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#doctorschedule #profilebody {
+  width: 100%;
+  height: 55%;
+  /* background-color: blue; */
+}
+
+#doctorschedule #alerts {
+  width: 100%;
+  height: 15%;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+}
+
+#doctorschedule #alerts h3 {
+  margin-top: 3vh;
+  margin-left: 1vw;
+}
+
+#doctorschedule .alertlist {
+  width: 100%;
+  height: 90%;
+  /* background-color: green; */
+}
+
+#doctorschedule .alertinfo {
+  width: 100%;
+  height: 20%;
+  /* background-color: orange; */
+  display: flex;
+}
+
+#doctorschedule .alertinfo p {
+  margin-top: 0;
+  margin-left: 1vw;
+}
+
+#doctorschedule .alertinfoleft {
+  width: 60%;
+  height: 100%;
+  /* background-color: blue; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#doctorschedule .alertinforight {
+  width: 40%;
+  height: 100%;
+  /* background-color: purple; */
+  display: flex;
+  align-items: center;
+}
+
+#doctorschedule #newappoint {
+  color: green;
+}
+
+#doctorschedule #cancelappoint {
+  color: red;
+}
+
+#doctorschedule #reschappoint {
+  color: purple;
+}
+
+#doctorschedule #footerdiv {
+  width: 100%;
+  height: 7vh;
+  /* background-color: green; */
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+#doctorschedule footer {
+  width: 60%;
+  height: 80%;
+  /* background-color: brown; */
+  display: flex;
+  justify-content: center;
+  color: white;
+}
