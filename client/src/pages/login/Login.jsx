@@ -14,10 +14,14 @@ const Login = () => {
         <div id="box">
           <form action="">
             <label>
-              <b>NIN</b>
+              <b>Username</b>
             </label>
             <br />
-            <input type="number" name="nin" placeholder="Enter your NIN here" />
+            <input
+              type="text"
+              name="suername"
+              placeholder="Enter your username here"
+            />
             <br />
             <br />
             <label>

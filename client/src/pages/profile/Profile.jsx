@@ -107,7 +107,7 @@ const Profile = () => {
                     </div>
                 </div>
                 <br/><br/> */}
-            <Link to={"/"} className="logoutclick">
+            <Link to={"/allowdoctor"} className="logoutclick">
               <button type="submit">Allow Doctor View Your Profile</button>
             </Link>
             <br />

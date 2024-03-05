@@ -54,13 +54,13 @@ const Patients = () => {
             <div id="box">
               <form action="">
                 <label>
-                  <b>Patient's NIN</b>
+                  <b>Patient's Username</b>
                 </label>
                 <br />
                 <input
-                  type="number"
-                  name="nin"
-                  placeholder="Enter patient's NIN here"
+                  type="text"
+                  name="username"
+                  placeholder="Enter patient's username here"
                 />
                 <br />
                 <br />
