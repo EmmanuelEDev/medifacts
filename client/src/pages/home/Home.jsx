@@ -18,9 +18,9 @@ const Home = () => {
             information online with Medifacts.
           </h1>
           <br />
-          <a href="user.jsx">
+          <Link to={"/user"}>
             <button>Get Started</button>
-          </a>
+          </Link>
         </div>
       </div>
     </div>

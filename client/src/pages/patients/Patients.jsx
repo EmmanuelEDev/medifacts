@@ -39,7 +39,7 @@ const Patients = () => {
         </div>
         <div id="logoutdiv">
           <hr />
-          <Link to={"/"} className="logoutclick">
+          <Link to={"/loggedout"} className="logoutclick">
             Logout
           </Link>
         </div>
@@ -76,14 +76,16 @@ const Patients = () => {
                 />
                 <br />
                 <br />
-                <button type="submit">View Patient Information</button>
+                <Link to={"/profile"}>
+                  <button type="submit">View Patient Information</button>
+                </Link>
               </form>
             </div>
           </div>
         </div>
       </div>
       <div id="rightdiv">
-        <div id="profile">
+        <div id="myprofile">
           <h3>Profile</h3>
         </div>
         <div id="profilename">

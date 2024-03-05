@@ -1,6 +1,7 @@
 import React from "react";
 import "./user.css";
 import logo from "../../assets/logo.png";
+import { Link } from "react-router-dom";
 
 const User = () => {
   return (
@@ -15,22 +16,22 @@ const User = () => {
             <p>Which of the following are you?</p>
           </div>
           <div id="iconsbox">
-            <a href="patientlogin.html" id="patientdiv">
+            <Link to={"/login"} id="patientdiv">
               <div id="patienticon">
                 <div id="pidiv"></div>
               </div>
               <div id="patientname">
                 <p id="patientp">Patient</p>
               </div>
-            </a>
-            <a href="doctorlogin.html" id="doctordiv">
+            </Link>
+            <Link to={"/DoctorLogin"} id="doctordiv">
               <div id="doctoricon">
                 <div id="didiv"></div>
               </div>
               <div id="doctorname">
                 <p id="doctorp">Doctor</p>
               </div>
-            </a>
+            </Link>
           </div>
         </div>
       </div>

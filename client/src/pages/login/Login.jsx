@@ -32,13 +32,13 @@ const Login = () => {
             />
             <br />
             <br />
-            <button type="submit">Log In</button>
+            <Link to={"/profile"}>
+              <button type="submit">Log In</button>
+            </Link>
           </form>
           <p id="register">
             Don't have an account? &nbsp;
-            <Link to={"/"} className="loginclick">
-              Click here to register.
-            </Link>
+            <Link to={"/register"}>Click here to register.</Link>
           </p>
         </div>
       </div>

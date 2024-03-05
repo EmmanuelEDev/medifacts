@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   /* background-color: aqua; */
-  background-image: url(../res/bgimg.jpg);
+  background-image: url(../../assets/bgimg3.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -39,10 +39,10 @@
   font-size: 20px;
 }
 
-#profile #logoutdiv {
+/* #profile #logoutdiv {
   width: 20%;
   height: 100%;
-  /* background-color: blue; */
+  background-color: blue;
 }
 
 #profile #logouticon {
@@ -50,6 +50,13 @@
   float: right;
   margin-top: 1%;
   margin-right: 1%;
+} */
+
+#profile .logoutclick {
+  text-decoration: none;
+  color: red;
+  margin-top: 3vh;
+  font-size: 20px;
 }
 
 #profile #mainbodydiv {

@@ -1,6 +1,7 @@
 import React from "react";
 import "./patientregistration.css";
 import logo from "../../assets/logo.png";
+import { Link } from "react-router-dom";
 
 const PatientRegistration = () => {
   return (
@@ -68,7 +69,9 @@ const PatientRegistration = () => {
             />
             <br />
             <br />
-            <button type="submit">Create Account</button>
+            <Link to={"/profile"}>
+              <button type="submit">Create Account</button>
+            </Link>
           </form>
         </div>
       </div>

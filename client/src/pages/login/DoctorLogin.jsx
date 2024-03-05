@@ -32,13 +32,13 @@ const DoctorLogin = () => {
             />
             <br />
             <br />
-            <button type="submit">Log In</button>
+            <Link to={"/doctordashboard"}>
+              <button type="submit">Log In</button>
+            </Link>
           </form>
           <p id="register">
             Don't have an account? &nbsp;
-            <Link to={"/"} className="doctorloginclick">
-              Click here to register.
-            </Link>
+            <Link to={"/doctorregistration"}>Click here to register.</Link>
           </p>
         </div>
       </div>

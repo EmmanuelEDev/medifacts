@@ -1,7 +1,6 @@
 import React from "react";
 import "./profile.css";
 import logo from "../../assets/logo.png";
-import usercircle from "../../assets/user-circle-icon.png";
 import { Link } from "react-router-dom";
 
 const Profile = () => {
@@ -17,9 +16,9 @@ const Profile = () => {
           <a href="appointment.html">Book an Appointment</a>
           <a href="contact.html">Contact Us</a>
         </div>
-        <div id="logoutdiv">
-          <img id="logo" src={usercircle} alt="" />
-        </div>
+        <Link to={"/loggedout"} className="logoutclick">
+          Logout
+        </Link>
       </div>
       <div id="mainbodydiv">
         <div id="mainbody">
@@ -29,28 +28,43 @@ const Profile = () => {
               <b>Date of Birth</b>
             </label>
             <br />
-
+            <input type="date" id="birthday" name="birthday"></input>
             <br />
             <br />
             <label>
               <b>Height (in cm)</b>
             </label>
             <br />
-
+            <input
+              type="number"
+              name="height"
+              placeholder="Input your height here"
+              required
+            />
             <br />
             <br />
             <label>
               <b>Weight (in kg)</b>
             </label>
             <br />
-
+            <input
+              type="number"
+              name="weight"
+              placeholder="Input your weight here"
+              required
+            />
             <br />
             <br />
             <label>
               <b>Blood Group</b>
             </label>
             <br />
-
+            <select>
+              <option value="BGA">A</option>
+              <option value="BGB">B</option>
+              <option value="BGAB">AB</option>
+              <option value="BGO">O</option>
+            </select>
             <br />
             <br />
             <label>
@@ -67,14 +81,19 @@ const Profile = () => {
               <b>When did you last check your blood pressure?</b>
             </label>
             <br />
-
+            <input type="date" id="bpreading" name="bpreading"></input>
             <br />
             <br />
             <label>
               <b>What was your blood pressure reading?</b>
             </label>
             <br />
-
+            <input
+              type="text"
+              name="bpr"
+              placeholder="Input your blood pressure"
+              required
+            />
             <br />
             <br />
             {/* <label><b>Do You Suffer From Diabetes?</b></label><br>
@@ -93,7 +112,7 @@ const Profile = () => {
             </Link>
             <br />
             <br />
-            <button type="submit">Edit Profile</button>
+            <button type="submit">Save Profile Details</button>
           </form>
         </div>
       </div>

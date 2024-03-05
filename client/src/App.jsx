@@ -11,6 +11,10 @@ import Patients from "./pages/patients/Patients";
 import DoctorSchedule from "./pages/doctorschedule/DoctorSchedule";
 import DoctorSettings from "./pages/doctorsettings/DoctorSettings";
 import LoggedOut from "./pages/loggedout/LoggedOut";
+import Profile from "./pages/profile/Profile";
+import Contact from "./pages/contact/Contact";
+import Appointment from "./pages/appointment/Appointment";
+import AllowDoctor from "./pages/allowdoctor/AllowDoctor";
 
 function App() {
   return (
@@ -28,6 +32,10 @@ function App() {
           <Route path="/doctorschedule" element={<DoctorSchedule />} />
           <Route path="/doctorsettings" element={<DoctorSettings />} />
           <Route path="/loggedout" element={<LoggedOut />} />
+          <Route path="/profile" element={<Profile />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/appointment" element={<Appointment />} />
+          <Route path="/allowdoctor" element={<AllowDoctor />} />
         </Routes>
       </BrowserRouter>
     </>

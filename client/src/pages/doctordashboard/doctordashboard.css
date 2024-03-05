@@ -267,7 +267,7 @@
   background-color: rgb(77, 182, 171);
 }
 
-#doctorDashboard #profile {
+#doctorDashboard #myprofile {
   width: 100%;
   height: 10%;
   /* background-color: red; */
@@ -275,7 +275,7 @@
   align-items: center;
 }
 
-#doctorDashboard #profile h3 {
+#doctorDashboard #myprofile h3 {
   margin-left: 1vw;
 }
 

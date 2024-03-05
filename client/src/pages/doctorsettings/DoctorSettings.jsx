@@ -39,7 +39,7 @@ const DoctorSettings = () => {
         </div>
         <div id="logoutdiv">
           <hr />
-          <Link to={"/"} className="logoutclick">
+          <Link to={"/loggedout"} className="logoutclick">
             Logout
           </Link>
         </div>
@@ -52,7 +52,7 @@ const DoctorSettings = () => {
         <div className="centredivmain"></div>
       </div>
       <div id="rightdiv">
-        <div id="profile">
+        <div id="myprofile">
           <h3>Profile</h3>
         </div>
         <div id="profilename">

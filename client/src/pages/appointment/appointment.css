@@ -1,0 +1,164 @@
+#appointment {
+  margin: 0;
+  padding: 0;
+}
+
+#appointment #div1 {
+  width: 100%;
+  height: 70vh;
+  /* background-color: blue; */
+  background-image: url(../../assets/doctors.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#appointment #div1logo {
+  width: 100%;
+  height: 15%;
+  /* background-color: red; */
+}
+
+#appointment #div1body {
+  width: 100%;
+  height: 85%;
+  /* background-color: green; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10vh;
+}
+
+#appointment #topdiv {
+  width: 100%;
+  height: 100%;
+  /* background-color: green; */
+  display: flex;
+}
+
+#appointment #logodiv {
+  width: 20%;
+  height: 100%;
+  /* background-color: red; */
+}
+
+#appointment #logo {
+  height: 100%;
+}
+
+#appointment #navbar {
+  width: 60%;
+  height: 100%;
+  /* background-color: yellow; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#appointment #navbar a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+/* #logoutdiv {
+  width: 20%;
+  height: 100%;
+  background-color: blue;
+}
+
+#logouticon {
+  height: 85%;
+  float: right;
+  margin-top: 1%;
+  margin-right: 1%;
+} */
+
+#appointment .logoutclick {
+  text-decoration: none;
+  color: red;
+  margin-top: 3vh;
+  font-size: 20px;
+  float: right;
+  margin-right: 1%;
+}
+
+#appointment #div2 {
+  width: 100%;
+  height: 10vh;
+  background-color: rgb(106, 106, 238);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#appointment #selectdiv {
+  margin-top: 1vh;
+  justify-content: space-around;
+}
+
+#appointment button {
+  background-color: aqua;
+  color: white;
+  /* padding: 1vh; */
+  /* border-radius: 25px; */
+}
+
+#appointment #div3 {
+  width: 100%;
+  height: 110vh;
+  background-color: rgb(89, 219, 213);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#appointment #div3 h3 {
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+}
+
+#appointment #hospitaldiv {
+  width: 70%;
+  height: 90%;
+  /* background-color: red; */
+}
+
+#appointment #hpdiv1 {
+  width: 100%;
+  height: 30%;
+  /* background-color: yellow; */
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2vh;
+}
+
+#appointment .hospitalimg {
+  height: 100%;
+  width: 30%;
+}
+
+#appointment #hpdiv2 {
+  width: 100%;
+  height: 30%;
+  /* background-color: pink; */
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2vh;
+}
+
+#appointment #hpdiv3 {
+  width: 100%;
+  height: 30%;
+  /* background-color: brown; */
+  display: flex;
+  justify-content: space-between;
+}
+
+#contact .logoutclick {
+  text-decoration: none;
+  color: red;
+  margin-top: 3vh;
+  font-size: 20px;
+  margin-left: 5%;
+  margin-right: 1%;
+}
